@@ -9,36 +9,52 @@ $(document).ready(function() {
         var q2Result = $("#question2").val();
         var q3Result = $("#question3").val();
         var totalScore;
-        var Yes;
-        var No;
         
-        if (q1Result == Yes) {
+        
+        /* Question 1 */
+        
+        function MakingGames(Answer) {
+            if (Answer == "Yes") {
             console.log("Q1 Yes");
+            return 20;
             
-            
-        } else if (q1Result == No) {
+        } else if (Answer == "No") {
             console.log("Q1 No");
-        
-        
-        }
-        
-        if (q2Result == Yes) {
-            console.log("Q2 Yes");
-            
-            
-        } else if (q2Result == No) {
-            console.log("Q2 No");
-        
+            return 2;
         
         }
         
-        if (q3Result == Yes) {
-            console.log("Q3 Yes");
-            
-            
-        } else if (q3Result == No) {
-            console.log("Q3 No");
+        }
         
+        
+        
+        /* Question 2 */
+        
+        function MakingGames(Answer) {
+            if (Answer == "Yes") {
+            console.log("Q1 Yes");
+            return 20;
+            
+        } else if (Answer == "No") {
+            console.log("Q1 No");
+            return 2;
+        
+        }
+        
+        }
+        
+        /* Question 3 */
+        
+       function MakingGames(Answer) {
+            if (Answer == "Yes") {
+            console.log("Q1 Yes");
+            return 20;
+            
+        } else if (Answer == "No") {
+            console.log("Q1 No");
+            return 2;
+        
+        }
         
         }
         
