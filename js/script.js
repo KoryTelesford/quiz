@@ -5,6 +5,7 @@ $(document).ready(function() {
         var name = $("#name").val();
         var techPlacement = "TBD";
         var imgSrc = "https://media.giphy.com/media/22zgHX8aop488/giphy.gif";
+        
         var q1Result = $("#question1").val();
         var q2Result = $("#question2").val();
         var q3Result = $("#question3").val();
@@ -15,11 +16,11 @@ $(document).ready(function() {
         
         function MakingGames(Answer) {
             if (Answer == "Yes") {
-            console.log("Q1 Yes");
+            alert("Q1 Yes");
             return 20;
             
         } else if (Answer == "No") {
-            console.log("Q1 No");
+            alert("Q1 No");
             return 2;
         
         }
@@ -30,9 +31,9 @@ $(document).ready(function() {
         
         /* Question 2 */
         
-        function MakingGames(Answer) {
+        function ShooterGames(Answer) {
             if (Answer == "Yes") {
-            console.log("Q1 Yes");
+             alert("Q1 Yes");
             return 20;
             
         } else if (Answer == "No") {
@@ -45,7 +46,22 @@ $(document).ready(function() {
         
         /* Question 3 */
         
-       function MakingGames(Answer) {
+       function StoryGames(Answer) {
+            if (Answer == "Yes") {
+            console.log("Q1 Yes");
+            return 20;
+            
+        } else if (Answer == "No") {
+            console.log("Q1 No");
+            return 2;
+        
+        }
+        
+        }
+        
+        /* Question 4 */
+        
+        function PlatformerGames(Answer) {
             if (Answer == "Yes") {
             console.log("Q1 Yes");
             return 20;
@@ -59,6 +75,11 @@ $(document).ready(function() {
         }
         
         
+        function totalScore(Score) {
+        
+            
+        
+        }
     });
 
 });
